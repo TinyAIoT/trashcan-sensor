@@ -57,6 +57,7 @@ void TofSensor::measure() {
     }
   }
   if (weightedSum < 0 || sumOfWeights <= 0) {
+    DEBUG(Serial.println("Distance measurement failed."));
     gStatus = Status::FAILED;
     return;
   }
