@@ -1,3 +1,5 @@
+/* This file needs to be copied to the LMIC library's configuration directory. */
+
 #define CFG_eu868 1
 #define CFG_sx1276_radio 1
 #define DISABLE_BEACONS

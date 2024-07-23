@@ -9,6 +9,7 @@ Status Battery::gStatus;
 uint32_t Battery::gVoltage;
 
 void Battery::begin() {
+  /* apply the desired settings to the voltage divider's analog GPIO pin */
   pinMode(DIVIDER_PIN, INPUT);
   analogReadResolution(13);
   analogSetPinAttenuation(DIVIDER_PIN, ADC_11db);
@@ -21,10 +22,14 @@ void Battery::begin() {
 void Battery::measure() {
   if (gStatus != Status::MEASURING)
     return;
+  /* collect a single voltage measurement */
   gVoltage += analogReadMilliVolts(DIVIDER_PIN);
   sCount++;
+  /* compute the battery voltage from fifteen individual measurements */
   if (sCount >= 15) {
+    /* multiply the average voltage by two because the voltage divider uses the same resistance twice */
     gVoltage = 2 * (gVoltage / sCount);
+    /* clamp the final voltage */
     gVoltage = gVoltage > UINT16_MAX ? UINT16_MAX : gVoltage;
     DEBUG(Serial.printf("Voltage is %lu mV.\n", gVoltage));
     gStatus = Status::SUCCEEDED;
