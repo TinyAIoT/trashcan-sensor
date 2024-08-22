@@ -1,5 +1,6 @@
-/* Edge Impulse Arduino examples
+/* 
  * Copyright (c) 2022 EdgeImpulse Inc.
+ * Copyright (c) 2024 The TinyAIoT Project Seminar Team at the University of Münster
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
