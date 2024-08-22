@@ -2,7 +2,12 @@
  * DI2S Version, 
  * WAV Recorder for Seeed XIAO ESP32S3 Sense
  * 
+ * NOTE: To execute this code, we will need to use the PSRAM 
+ * function of the ESP-32 chip, so please turn it on before uploading.
+ * Tools>PSRAM: "OPI PSRAM"
+ * 
  * Original: https://wiki.seeedstudio.com/xiao_esp32s3_keyword_spotting/
+ * Adapted by M.Rovai @May23 and A.Kurkela @2024
  */
 
 #include "driver/i2s.h"
