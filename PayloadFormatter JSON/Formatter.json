@@ -1,6 +1,6 @@
-'''javascript
-function decodeUplink(input) {
- var bytes = input.bytes;
+function decodeUplink(input)
+{
+  var bytes = input.bytes;
   var decoded = {};
 
   // Assuming 0046 is the entire payload and it's a 16-bit integer
@@ -8,6 +8,6 @@ function decodeUplink(input) {
 
   return {
     data: decoded
-  };
+        };
 }
-'''
+
