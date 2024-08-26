@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-// Set to 0/1 to set debug messages off/on
+// Set value to 0/1 to turn console debug messages off/on
 #define CONFIG_DEBUG_MODE 0
 
 // ICS-43434 Microphone Pin Connection
