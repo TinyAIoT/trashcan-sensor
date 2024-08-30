@@ -15,3 +15,18 @@ This repository contains all files related to the smart sensors that were create
 | `Payload Formatter` | The Payload Formatter for decoding messages received from sensor devices. |
 | `MQTT Message` | Directory containing example MQTT message with JSON payload. |
 | `Commands` | Directory containing example MQTT commands. |
+
+## Licensing
+There is no single license that applies to the entire repository. Each subdirectory contains the licenses that are relevant for itself because different licenses can apply to modified third-party files.
+
+## Contributions
+The following table lists the main contributions of each team member. Additionally, all team members have supported their peers when help was needed, e.g. during programming sessions in the seminar room.
+
+| Name | Contributions |
+|-|-|
+| _Anni_ | microphone experiments and software, hardware assembly
+| _Michael_ | hardware assembly, noise classification model
+| _Philipp_ | LoRa experiments, trash bin software, hardware procurement and assembly, box design and fabrication
+| _Shadia_ | hardware assembly, LoRa communication design
+
+We would also like to thank our supervisors for their kind advice on hardware selection and for the soldering workshop.
