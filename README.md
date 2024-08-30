@@ -27,6 +27,6 @@ The following table lists the main contributions of each team member. Additional
 | _Anni_ | microphone experiments and software, hardware assembly
 | _Michael_ | hardware assembly, noise classification model
 | _Philipp_ | LoRa experiments, trash bin software, hardware procurement and assembly, box design and fabrication
-| _Shadia_ | hardware assembly, LoRa communication design
+| _Shadia_ | hardware assembly, LoRa communication design, MQTT communication implementation, TTN Configuration
 
 We would also like to thank our supervisors for their kind advice on hardware selection and for the soldering workshop.
