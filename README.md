@@ -14,3 +14,4 @@ This repository contains all files related to the smart sensors that were create
 | `ei-duonoise-arduino-1.0.2.zip` | The Noise Detection model library that is needed to run General_EI_dB_Wlan. |
 | `Payload Formatter` | The Payload Formatter for decoding messages received from sensor devices. |
 | `MQTT Message` | Directory containing example MQTT message with JSON payload. |
+| `Commands` | Directory containing example MQTT commands. |
