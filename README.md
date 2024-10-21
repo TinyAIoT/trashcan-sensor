@@ -9,6 +9,7 @@ This repository contains all files related to the smart sensors that were create
 | `lorawan_antenna` | An experimental Arduino sketch for testing and learning about LoRa and associated libraries. It uses the [senseBox LoRa Bee](https://docs.sensebox.de/docs/hardware/bee/lora-bee/) which is incompatible with the LoRa board used in the smart trash bins. |
 | `noise_detection` | The Arduino sketch for our smart noise detector. Refer to the wiki for details about its structure. |
 | `trash_bin` | The Arduino sketch for our smart trash bins. Refer to the wiki for details about its structure. |
+| `trash_bin_wifi` | The Arduino sketch for our smart trash bins but with MQTT through wifi for demo purposes. |
 | `wiki` | A directory for resources used in the wiki. |
 | `README.md` | This file. |
 | `ei-duonoise-arduino-1.0.2.zip` | The Noise Detection model library that is needed to run General_EI_dB_Wlan. |
