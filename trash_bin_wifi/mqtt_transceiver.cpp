@@ -10,13 +10,10 @@
 #define BUFFER_SIZE 4
 #define KEY_SIZE 16
 
-// const char* ssid       = "VIP";
-// const char* pass   = "$44!ONLY!WithPermission:33";
+const char* ssid       = "XXX";
+const char* pass   = "XXX";
 
-const char* ssid       = "ReeduNet";
-const char* pass   = "werockschools!";
-
-const char broker[] = "192.168.2.155";  // IP address of your MQTT broker
+const char broker[] = "XXX";  // IP address of your MQTT broker
 int        port     = 1883;
 const char topic[]  = "v3/smart-trashcan@ttn/devices/aiconn-trashcan/up";
 
